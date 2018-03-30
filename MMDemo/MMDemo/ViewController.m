@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MMPerson.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MMPerson *person = [MMPerson new];
+    person.name = @"想了想";
+    
+    [person eat];
 }
 
 

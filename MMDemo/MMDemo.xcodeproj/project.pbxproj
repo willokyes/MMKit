@@ -13,6 +13,7 @@
 		7E168E3F206E78CE00059783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E168E3E206E78CE00059783 /* Assets.xcassets */; };
 		7E168E42206E78CE00059783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E168E40206E78CE00059783 /* LaunchScreen.storyboard */; };
 		7E168E45206E78CE00059783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E168E44206E78CE00059783 /* main.m */; };
+		7E168E4E206E7DF400059783 /* MMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E168E4D206E7DF400059783 /* MMPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7E168E41206E78CE00059783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E168E43206E78CE00059783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E168E44206E78CE00059783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E168E4C206E7DF400059783 /* MMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPerson.h; sourceTree = "<group>"; };
+		7E168E4D206E7DF400059783 /* MMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7E168E34206E78CE00059783 /* MMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7E168E4B206E7DDB00059783 /* MMKit */,
 				7E168E35206E78CE00059783 /* AppDelegate.h */,
 				7E168E36206E78CE00059783 /* AppDelegate.m */,
 				7E168E38206E78CE00059783 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				7E168E44206E78CE00059783 /* main.m */,
 			);
 			path = MMDemo;
+			sourceTree = "<group>";
+		};
+		7E168E4B206E7DDB00059783 /* MMKit */ = {
+			isa = PBXGroup;
+			children = (
+				7E168E4C206E7DF400059783 /* MMPerson.h */,
+				7E168E4D206E7DF400059783 /* MMPerson.m */,
+			);
+			path = MMKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				7E168E3A206E78CE00059783 /* ViewController.m in Sources */,
 				7E168E45206E78CE00059783 /* main.m in Sources */,
+				7E168E4E206E7DF400059783 /* MMPerson.m in Sources */,
 				7E168E37206E78CE00059783 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
